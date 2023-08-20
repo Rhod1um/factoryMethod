@@ -66,8 +66,29 @@ function run() {
 
     for (let i = 0, len = movies.length; i < len; i++) {
         movies[i].say()
+
         //console.log(movies[i].isAgeRestricted)
     }
 }
+//frem for at have forskellige typer objekter som drama osv så kunne man
+//have samme type objekt bare movie og så have forskellige attributter på. Det er også factory method
+
+//Mikas pattern: state machine pattern, klasser implementere interface. klasserne har metoder som repræsentere dets state
+//fx power on, off, pause, play, stop, eject, etc.
+
+//composite design pattern
+//træstruktur: rekursiv
+//dokument eksempel, folder med filer i, folder med filer i, folder med filer i, osv.
+//og html dom træ
+
+//minimum to klasser, simpel som er dokument og en folder som har dokumenter
+//dokumentfolder kan have dokumentfoldere osv - rekursiv
+//foldere er noder, dokumenterne er blade
+
+//eksamen system: kan lægges i portefolie til at vise virksomheder når man skal i praktik
+//man skal opbygge portefolie
+
+//spørg: eksamen exceptions og functional programmering
+//hvornår ville vi bruge objekter i js?
 
 run()
